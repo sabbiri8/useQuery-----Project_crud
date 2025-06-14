@@ -1,0 +1,173 @@
+{
+  "posts": [
+    {
+      "id": "3dfc",
+      "title": "Ut animi impedit e",
+      "body": "Aut dolorum in dolor"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "title": "Complete React Router tutorial"
+    },
+    {
+      "id": "2",
+      "title": "Build SkillSwap MVP with React & Tailwind"
+    },
+    {
+      "id": "3",
+      "title": "Write a blog on useEffect pitfalls"
+    },
+    {
+      "id": "4",
+      "title": "Refactor portfolio with TypeScript"
+    },
+    {
+      "id": "5",
+      "title": "Apply to 3 remote frontend positions"
+    },
+    {
+      "id": "6",
+      "title": "Finish reading 'You Don’t Know JS'"
+    },
+    {
+      "id": "7",
+      "title": "Learn useReducer and useContext with example projects"
+    },
+    {
+      "id": "8",
+      "title": "Implement dark mode toggle using Tailwind"
+    },
+    {
+      "id": "9",
+      "title": "Setup and deploy project on Vercel"
+    },
+    {
+      "id": "10",
+      "title": "Practice form validation using React Hook Form"
+    },
+    {
+      "id": "11",
+      "title": "Build a weather app using external API"
+    },
+    {
+      "id": "12",
+      "title": "Contribute to an open-source GitHub repo"
+    },
+    {
+      "id": "13",
+      "title": "Implement pagination using React Query"
+    },
+    {
+      "id": "14",
+      "title": "Create reusable UI components library"
+    },
+    {
+      "id": "15",
+      "title": "Start TypeScript crash course"
+    },
+    {
+      "id": "16",
+      "title": "Read ‘Clean Code’ by Robert C. Martin"
+    },
+    {
+      "id": "17",
+      "title": "Implement authentication with Firebase"
+    },
+    {
+      "id": "18",
+      "title": "Create a blog with Markdown support"
+    },
+    {
+      "id": "19",
+      "title": "Practice common JavaScript algorithms"
+    },
+    {
+      "id": "20",
+      "title": "Join a frontend developer community on Discord"
+    }
+  ],
+  "fruits": [
+    {
+      "id": "1",
+      "name": "Apple"
+    },
+    {
+      "id": "2",
+      "name": "Banana"
+    },
+    {
+      "id": "3",
+      "name": "Orange"
+    },
+    {
+      "id": "4",
+      "name": "Mango"
+    },
+    {
+      "id": "5",
+      "name": "Grapes"
+    },
+    {
+      "id": "6",
+      "name": "Pineapple"
+    },
+    {
+      "id": "7",
+      "name": "Watermelon"
+    },
+    {
+      "id": "8",
+      "name": "Papaya"
+    },
+    {
+      "id": "9",
+      "name": "Guava"
+    },
+    {
+      "id": "10",
+      "name": "Lychee"
+    },
+    {
+      "id": "11",
+      "name": "Strawberry"
+    },
+    {
+      "id": "12",
+      "name": "Blueberry"
+    },
+    {
+      "id": "13",
+      "name": "Kiwi"
+    },
+    {
+      "id": "14",
+      "name": "Peach"
+    },
+    {
+      "id": "15",
+      "name": "Plum"
+    },
+    {
+      "id": "16",
+      "name": "Pomegranate"
+    },
+    {
+      "id": "17",
+      "name": "Cherry"
+    },
+    {
+      "id": "18",
+      "name": "Jackfruit"
+    },
+    {
+      "id": "19",
+      "name": "Coconut"
+    },
+    {
+      "id": "20",
+      "name": "Blackberry"
+    }
+  ]
+}
