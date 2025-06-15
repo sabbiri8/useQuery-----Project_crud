@@ -4,7 +4,7 @@ import { AuthContext } from "../providers/AuthProvider";
 
 export default function Login() {
   const navigate = useNavigate();
-  const { loginUser } = useContext(AuthContext);
+  const { loginUser, signInWithGoogle } = useContext(AuthContext);
   function handleLogin(e) {
     e.preventDefault();
     const email = e.target.email.value;
@@ -19,6 +19,17 @@ export default function Login() {
       })
       .catch((error) => {
         console.log("Error login", error.message);
+      });
+  }
+
+  function handleGoogleLogin() {
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result);
+        navigate("/");
+      })
+      .catch((error) => {
+        console.log("error from googgle", error.message);
       });
   }
   return (
@@ -72,6 +83,28 @@ export default function Login() {
               Sign up
             </Link>
           </p>
+          <div className="relative my-4">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-gray-300"></div>
+            </div>
+            <div className="relative flex justify-center text-sm">
+              <span className="bg-white px-2 text-gray-500">
+                Or continue with
+              </span>
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={handleGoogleLogin}
+            className="w-full flex items-center justify-center gap-2 border border-gray-300 text-gray-700 py-2 rounded-xl hover:bg-gray-100 transition"
+          >
+            <img
+              src="https://www.svgrepo.com/show/475656/google-color.svg"
+              alt="google"
+              className="w-5 h-5"
+            />
+            Sign in with Google
+          </button>
         </form>
       </div>
     </div>
